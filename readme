@@ -1,0 +1,22 @@
+Members
+-------------------------------------
+1. 5xxxxxx  <Name> <Family name >
+2. 5xxxxxx
+3. 5188148 Bhoomtawath Plinsut 
+4. 5xxxxxx 
+-------------------------------------
+
+Known errors and limitations
+-------------------------------------
+1. Our program do report only just an error in the .tree file that has the same name as the source file.
+We report an error in the format of "!ERROR: "spelling of the token" @ L"line number"/T"text number" format.
+example: !ERROR: eof @ L7/T4" format
+
+2.Our Line number and Token number may incorrect in some situations.
+-------------------------------------
+
+References
+-------------------------------------
+1.ITCS440-Principles of Compiler Design - material
+2.Programming Language Processors in Java - David A Watt & Derck F Brown
+-------------------------------------

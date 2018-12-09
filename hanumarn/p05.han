@@ -1,0 +1,21 @@
+prg p05 : @ nested while
+
+let m , n , f , s : int ;
+
+begin
+    n := read ;
+    f := 1 ;
+    while 1 <= n do
+    begin
+        m := n ;
+        s := 0 ;
+        while 1 <= m do
+        begin
+            s := s ++ f ;
+            m := m ++ -1
+        end ;
+        f := s ;
+        n := n ++ -1
+   end ;
+   out ( f )
+end .

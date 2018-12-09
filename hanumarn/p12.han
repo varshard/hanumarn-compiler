@@ -1,0 +1,12 @@
+prg p12 : @ underscore
+
+let a , b_1 , c , e : int ;
+
+begin
+    a := 1 ;
+    b_1 := 2 ;
+    c := 3 ;
+    e := 1 ;
+    a := a ++ b_1 -- c // e ;
+    out ( a )
+end .

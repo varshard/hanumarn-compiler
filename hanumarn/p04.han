@@ -1,0 +1,18 @@
+prg p04 : @ if-then-else, read
+
+let i , d , c : int ;
+
+begin
+    d := 1 ;
+    c := 0 ;
+    while ( d <= 10 ) do
+    begin
+        if c <= 25 then
+        begin
+            i := read ;
+            c := c ++ i
+        end
+        else d := d ++ 1
+    end ;
+    out ( c )
+end .

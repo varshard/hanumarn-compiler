@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="WINDOWS-1252" standalone="no"?>
+<jardesc>
+    <jar path="C:/Users/Title/Desktop/Hanumarn1.jar"/>
+    <options buildIfNeeded="true" compress="true" descriptionLocation="/Compiler Phase1/.settings/desc.jardesc" exportErrors="true" exportWarnings="true" includeDirectoryEntries="false" overwrite="false" saveDescription="true" storeRefactorings="false" useSourceFolders="true"/>
+    <storedRefactorings deprecationInfo="true" structuralOnly="false"/>
+    <selectedProjects/>
+    <manifest generateManifest="true" mainClassHandleIdentifier="=Compiler Phase1/src&lt;{Hanumarn1.java[Hanumarn1" manifestLocation="/Compiler Phase1/MANIFEST.MF" manifestVersion="1.0" reuseManifest="false" saveManifest="true" usesManifest="true">
+        <sealing sealJar="false">
+            <packagesToSeal/>
+            <packagesToUnSeal/>
+        </sealing>
+    </manifest>
+    <selectedElements exportClassFiles="true" exportJavaFiles="true" exportOutputFolder="false">
+        <file path="/Compiler Phase1/.project"/>
+        <javaElement handleIdentifier="=Compiler Phase1/src"/>
+        <file path="/Compiler Phase1/.classpath"/>
+    </selectedElements>
+</jardesc>

@@ -1,0 +1,11 @@
+prg p13 :
+
+let a , y , q : int ;
+
+begin
+    a := 1 ;
+    y := 2 ;
+    q := 3 ;
+    a := 4 // y ** 9 ++ q -- 102 ;
+    out ( a )
+end .

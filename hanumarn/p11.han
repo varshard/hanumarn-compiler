@@ -1,0 +1,13 @@
+prg p11 : @ nested arithmetic expression
+
+let a , b , c , d , e : int ;
+
+begin
+    a := 1 ;
+    b := 2 ;
+    c := 3 ;
+    d := 4 ;
+    e := 1 ;
+    a := a ++ b -- c ** d // e ;
+    out ( a )
+end .

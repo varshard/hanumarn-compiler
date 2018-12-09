@@ -1,0 +1,64 @@
+Program @ L1/T1
+. <identifier> @ L1/T2
+. . p10 @ L1/T2
+. Dclns @ @ L3/T1
+. . Dcln @ L3/T2
+. . . <identifier> @ L3/T2
+. . . . a @ L3/T2
+. . . <identifier> @ L3/T4
+. . . . b @ L3/T4
+. . . <identifier> @ L3/T6
+. . . . c @ L3/T6
+. . . <identifier> @ L3/T8
+. . . . d @ L3/T8
+. . . <identifier> @ L3/T10
+. . . . e @ L3/T10
+. . . integer @ L3/T12
+. subprogs @
+. bodyblock @ L6/T1
+. . assign @ L6/T2
+. . . <identifier> @ L6/T2
+. . . . d @ L6/T2
+. . . <integer> @ L6/T4
+. . . . 1 @ L6/T4
+. . assign @ L7/T2
+. . . <identifier> @ L7/T2
+. . . . a @ L7/T2
+. . . <integer> @ L7/T4
+. . . . 2 @ L7/T4
+. . assign @ L8/T2
+. . . <identifier> @ L8/T2
+. . . . b @ L8/T2
+. . . <integer> @ L8/T4
+. . . . 3 @ L8/T4
+. . assign @ L9/T2
+. . . <identifier> @ L9/T2
+. . . . c @ L9/T2
+. . . <integer> @ L9/T4
+. . . . 4 @ L9/T4
+. . assign @ L10/T2
+. . . <identifier> @ L10/T2
+. . . . e @ L10/T2
+. . . <integer> @ L10/T4
+. . . . 5 @ L10/T4
+. . assign @ L11/T2
+. . . <identifier> @ L11/T2
+. . . . a @ L11/T2
+. . . -- @ L11/T11
+. . . . ++ @ L11/T7
+. . . . . ** @ L11/T5
+. . . . . . <identifier> @ L11/T4
+. . . . . . . a @ L11/T4
+. . . . . . <identifier> @ L11/T6
+. . . . . . . b @ L11/T6
+. . . . . // @ L11/T9
+. . . . . . <identifier> @ L11/T8
+. . . . . . . c @ L11/T8
+. . . . . . <identifier> @ L11/T10
+. . . . . . . d @ L11/T10
+. . . . <identifier> @ L11/T12
+. . . . . e @ L11/T12
+. .  output @ L12/T2
+. . . <identifier> @ L12/T4
+. . . . a @ L12/T4
+. . <null> @

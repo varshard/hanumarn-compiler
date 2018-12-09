@@ -1,0 +1,12 @@
+prg p03 : @ block, while, out
+
+let count : int ;
+
+begin
+    count := 1 ; @ initialization
+    while ( count <= 10 ) do
+    begin
+        out ( read ) ;
+        count := count ++ 1 ;
+    end
+end .

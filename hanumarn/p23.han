@@ -1,0 +1,5 @@
+prg p23 :
+
+begin
+    out ( 3 , 2 , 1 ) ;
+end .

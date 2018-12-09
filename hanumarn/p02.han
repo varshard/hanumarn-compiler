@@ -1,0 +1,5 @@
+prg p02 : @ OUT a constant.
+
+begin
+   out ( 3 )
+end .

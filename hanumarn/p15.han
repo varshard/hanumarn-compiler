@@ -1,0 +1,15 @@
+prg p15 :
+
+let a , g1 , b , c , h , i , l : int ;
+
+begin
+    a := 1 ;
+    g1 := 2 ;
+    b := 3 ;
+    c := 4 ;
+    h := 5 ;
+    i := 6 ;
+    l := 7 ;
+    a := ( g1 ** ( b -- a  ) // (  h  ** i  -- l  ) ++ c  ) ;
+    out ( a )
+end .

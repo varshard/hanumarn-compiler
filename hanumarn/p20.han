@@ -1,0 +1,14 @@
+prg p20 : @ NOT, EOF
+
+let count , i : int ;
+
+begin
+    count := 0 ;
+    while begin eof do
+    begin
+         i := read ;
+         count := count ++ 1 ;
+         out ( i )
+    end ;
+    out ( count )
+end .

@@ -1,0 +1,7 @@
+Program @ L1/T1
+. <identifier> @ L1/T2
+. . p01 @ L1/T2
+. Dclns @
+. subprogs @
+. bodyblock @ L4/T1
+. . <null> @

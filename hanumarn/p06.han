@@ -1,0 +1,5 @@
+prg p06 : @ It must generate NULL after THEN.
+
+begin
+    if 1 <= 2 then else out ( 3 )
+end .

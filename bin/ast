@@ -1,0 +1,66 @@
+complete
+-----------
+Declare	-tested
+Identifier	-tested
+Terminal	-tested
+Declarations	-tested
+Parameters	-tested
+EXP - tested
+Term - tested
+Factor - tested
+
+-----------
+
+
+
+incomplete
+--------------------
+Primary - complete except (expresson)
+EXP - toString (correct output?)
+expression	-not test
+statement
+	-assign	- correct
+	-call	- correct
+	-output	-	correct?
+	-cond	-	not test
+	-forloop
+	-whileloop	-	not test
+	-body	-	not test
+	-empty
+term	-	wrong
+body	-	not test
+subprogram
+procedure
+hanumarn
+factor
+--------------------
+
+parser
+----------------------
+complete
+------------------------
+parseName
+parseDeclare
+parseDeclarations
+parseType
+parseParameters
+parseTerm
+------------------------
+incomplete
+------------------------
+parsePrimary - lack parseExpression
+parseExp	- correct?
+parseStatement	-correct?
+	-assign - tested
+	-call	- 
+	-output
+	-cond
+	-forloop
+	-whileloop
+	-body
+	-empty
+parseTerm	- not test
+parseBody
+.
+.
+.

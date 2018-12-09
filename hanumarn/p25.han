@@ -1,0 +1,20 @@
+prg p25 :
+
+let a , b : int ;
+
+sub y ( c , d : int ) ;
+begin
+  c := 3 ;
+  out ( c ) ;
+  out ( d ) ;
+  d := 4 ;
+  out ( d ) ;
+end ;
+
+begin
+  a := 1 ;
+  b := 2 ;
+  out ( a ) ;
+  y ( a , b ) ;
+  out ( b ) ;
+end .

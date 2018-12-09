@@ -1,0 +1,8 @@
+prg p22 :
+
+let a : int ;
+
+begin
+    a := - 1 ^^ 2 ;
+    out ( a ) ;
+end .

@@ -1,0 +1,17 @@
+prg p21 : @ logical operators
+
+let zero , one , two , twenty , negativefive : int ;
+
+begin
+    zero := 0 ;
+    one := 1 ;
+    two := 2 ;
+    twenty := 20 ;
+    negativefive := -5 ;
+    if ( zero == zero ) then out ( one ) else out ( zero ) ;
+    if ( one <> one ) then out ( one ) else out ( zero ) ;
+    if ( negativefive << zero ) then out ( one ) else out ( zero ) ;
+    if ( twenty >> two ) then out ( one ) else out ( zero ) ;
+    if ( one <= one ) then out ( one ) else out ( zero ) ;
+    if ( two >= two ) then out ( one ) else out ( zero ) ;
+end .
